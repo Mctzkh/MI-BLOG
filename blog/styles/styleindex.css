@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+ 
+}
+
+.logo{
+position:static;
+right: 40px;
+top: 30;
+margin-bottom: auto;
+margin-left: 0px;
+height: 200px;
+transition: transform 0.6s ease ;
+}
+
+.logo:hover{
+transform: rotate(360deg) scale(0.5);
+}
+
+
+
+header {
+  
+  color: white;
+ 
+  text-align: center;
+}
+
+nav {
+  background: #01204c;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+
+  margin:  15px;
+  text-decoration: none;
+  font-weight: bold; 
+}
+
+main {
+ 
+  color: black;
+  background-image: url("../assets/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;  /* mantiene section y aside separados */
+  align-items: flex-start;
+  height: 850px;
+  padding: 20px;
+  gap: 20px;
+}
+
+section, aside, article {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 30px; /* espacio entre articles */
+  text-align: center  ; 
+}
+
+section {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+}
+
+footer {
+  background: #01204c;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 20px;
+}
